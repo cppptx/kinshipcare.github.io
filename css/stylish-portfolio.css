@@ -14,12 +14,6 @@ p {
 	font-family: 'Merriweather', arial;
 }
 
-.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
 /* Custom Button Styles */
 
 .btn-dark {
@@ -73,6 +67,10 @@ p {
 	padding-bottom: 5%;
 }
 
+#stories {
+	background-color: #E5E5E5;
+}
+
 #header h1 {
 	font-size: 3.5em;
 	font-weight: 700;
@@ -92,6 +90,7 @@ p {
 }
 
 #story1 {
+	color: white;
 	display: table;
     position: relative;
 	width: 50%;
@@ -104,7 +103,23 @@ p {
     -o-background-size: cover;
 }
 
+#story1:hover {
+   color: black;
+   opacity: 0.8;
+   background-color: rgba(49,49,49);
+}
+
+#story1:hover h1 {
+   background-color: #00858e;
+   color: white;
+}
+
+#story1, h1 {
+   font-size: 70px;
+}
+
 #story2 {
+	color: white;
 	display: table;
     position: relative;
 	width: 50%;
@@ -117,7 +132,23 @@ p {
     -o-background-size: cover;
 }
 
+#story2:hover {
+   color: black;
+   opacity: 0.8;
+   background-color: rgba(49,49,49);
+}
+
+#story2:hover h1 {
+   background-color: #00858e;
+   color: white;
+}
+
+#story2, h1 {
+   font-size: 70px;
+}
+
 #story3 {
+	color: white;
 	display: table;
     position: relative;
 	width: 50%;
@@ -130,7 +161,23 @@ p {
     -o-background-size: cover;
 }
 
+#story3:hover {
+   color: black;
+   opacity: 0.8;
+   background-color: rgba(49,49,49);
+}
+
+#story3:hover h1 {
+   background-color: #00858e;
+   color: white;
+}
+
+#story3, h1 {
+   font-size: 70px;
+}
+
 #story4 {
+	color: white;
 	display: table;
     position: relative;
 	width: 50%;
@@ -141,6 +188,38 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#story4:hover {
+   color: black;
+   opacity: 0.8;
+   background-color: rgba(49,49,49);
+}
+
+#story4:hover h1 {
+   background-color: #00858e;
+   color: white;
+}
+
+#story4, h1 {
+   font-size: 70px;
+}
+
+#twitter-logo {
+	width: 14%;
+}
+
+#youtube-logo {
+	width: 20%;
+	margin-left: -3.8%;
+}
+
+#instagram-logo {
+	width: 8%;
+}
+
+#copyright {
+	background-color: #E5E5E5;
 }
 
 @media (max-width: 991px) {
