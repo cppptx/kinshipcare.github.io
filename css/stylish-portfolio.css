@@ -64,7 +64,7 @@ p {
 
 #logo {
 	width: 60%;
-	padding-bottom: 5%;
+	padding-bottom: 1%;
 }
 
 #stories {
@@ -206,20 +206,26 @@ p {
 }
 
 #twitter-logo {
-	width: 14%;
+	width: 9%;
 }
 
 #youtube-logo {
-	width: 20%;
-	margin-left: -3.8%;
+	width: 11%;
+	margin-left: -3%;
 }
 
 #instagram-logo {
-	width: 8%;
+	width: 5%;
 }
 
 #copyright {
 	background-color: #E5E5E5;
+}
+
+@media (max-width: 1199px) {
+	#fb-logo {
+		width: 5%;
+	}
 }
 
 @media (max-width: 991px) {
@@ -281,5 +287,66 @@ p {
     background-size: cover;
     -o-background-size: cover;
 }
+
+#fb-logo {
+	width: 8%;
+}
+
+#twitter-logo {
+	width: 13%;
+}
+
+#youtube-logo {
+	width: 18%;
+	margin-left: -3%;
+}
+
+#instagram-logo {
+	width: 7%;
+}
 	}
+
+@media (max-width: 991px) {
+	#fb-logo {
+	width: 3.5%;
+}
+
+#twitter-logo {
+	width: 8%;
+}
+
+#youtube-logo {
+	width: 12%;
+	margin-left: -3%;
+}
+
+#instagram-logo {
+	width: 5%;
+}
+}
+
+@media (max-width: 767px) {
+	#logo {
+	max-width: 70%;
+	}
+	#socialtop {
+		padding-bottom: 5%;
+	}
+	#fb-logo { 
+	width: 7%;
+	}
+	
+	#twitter-logo {
+	width: 13%;
+}
+
+#youtube-logo {
+	width: 18%;
+	margin-left: -3%;
+}
+
+#instagram-logo {
+	width: 8%;
+}
+}
 
