@@ -64,11 +64,29 @@ a {
 
 #introtext {
 	padding-top: 10%;
+	position: relative;
 }
 
-span {
+.navbar {
+	position: absolute;
+	background-color: transparent;
+	border: none;
+}
+
+.navbar a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+#donate {
 	color: white;
-	background-color: #00858e;
+	background-color: #D21F22;
+}
+
+
+span {
+	color: #00858e;
+	background-color: #E4E4E4;
 	padding: 1%;
 	font-weight: 700;
 	font-size: 1.2em;
@@ -218,16 +236,16 @@ span {
 }
 
 #twitter-logo {
-	width: 9%;
+	width: 13%;
 }
 
 #youtube-logo {
-	width: 11%;
+	width: 20%;
 	margin-left: -3%;
 }
 
 #instagram-logo {
-	width: 5%;
+	width: 8.5%;
 }
 
 #copyright {
@@ -236,7 +254,7 @@ span {
 
 @media (max-width: 1199px) {
 	#fb-logo {
-		width: 5%;
+		width: 8%;
 	}
 }
 
@@ -320,7 +338,7 @@ span {
 
 @media (max-width: 991px) {
 	#fb-logo {
-	width: 3.5%;
+	width: 18%;
 }
 
 #twitter-logo {
@@ -333,7 +351,7 @@ span {
 }
 
 #instagram-logo {
-	width: 5%;
+	width: 9%;
 }
 }
 
