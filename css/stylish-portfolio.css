@@ -16,37 +16,12 @@ p {
 
 a {
 	font-family: 'Lato', sans-serif;
+	text-decoration: none;
 }
 
-/* Custom Button Styles */
-
-.btn-dark {
-    border-radius: 0;
-    color: #fff;
-    background-color: rgba(0,0,0,0.4);
+hover:a {
+	text-decoration: none;
 }
-
-.btn-dark:hover,
-.btn-dark:focus,
-.btn-dark:active {
-    color: #fff;
-    background-color: rgba(0,0,0,0.7);
-}
-
-.btn-light {
-    border-radius: 0;
-    color: #333;
-    background-color: rgb(255,255,255);
-}
-
-.btn-light:hover,
-.btn-light:focus,
-.btn-light:active {
-    color: #333;
-    background-color: rgba(255,255,255,0.8);
-}
-
-
 
 /* Header */
 
@@ -121,7 +96,7 @@ span {
 
 #story1 {
 	color: white;
-	display: table;
+	display: block;
     position: relative;
 	width: 50%;
     height: 100%;
@@ -133,15 +108,24 @@ span {
     -o-background-size: cover;
 }
 
-#story1:hover {
-   color: black;
+#story1 a h1 {
+	display: block;
+	text-decoration: none;
+	opacity: 0;
+}
+
+#story1:hover a h1 {
+   color: white;
    opacity: 0.8;
    background-color: rgba(49,49,49);
+   text-decoration: none;
 }
 
 #story1:hover h1 {
    background-color: #00858e;
    color: white;
+   display: block;
+   text-decoration: none;
 }
 
 #story1, h1 {
@@ -150,7 +134,7 @@ span {
 
 #story2 {
 	color: white;
-	display: table;
+	display: block;
     position: relative;
 	width: 50%;
     height: 100%;
@@ -162,8 +146,14 @@ span {
     -o-background-size: cover;
 }
 
-#story2:hover {
-   color: black;
+#story2 a h1 {
+	display: block;
+	text-decoration: none;
+	opacity: 0;
+}
+
+#story2:hover a h1 {
+   color: white;
    opacity: 0.8;
    background-color: rgba(49,49,49);
 }
@@ -171,10 +161,15 @@ span {
 #story2:hover h1 {
    background-color: #00858e;
    color: white;
+   display: block;
 }
 
 #story2, h1 {
    font-size: 70px;
+}
+
+#bottomlogo {
+	max-width: 80%;
 }
 
 #twitter-logo {
