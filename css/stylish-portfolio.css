@@ -236,6 +236,13 @@ span {
     -o-background-size: cover;
 }
 
+#story1 a h1 {
+	display: block;
+	text-decoration: none;
+	opacity: 10;
+	color: white;
+}
+
 #story2 {
 	display: table;
     position: relative;
@@ -247,6 +254,14 @@ span {
     background-size: cover;
     -o-background-size: cover;
 }
+
+#story2 a h1 {
+	display: block;
+	text-decoration: none;
+	opacity: 10;
+	color: white;
+}
+
 
 #fb-logo {
 	width: 8%;
