@@ -71,7 +71,7 @@ hover:a {
 }
 
 #stories {
-	background-color: #E5E5E5;
+	background-color: #fff;
 }
 
 #header h1 {
@@ -180,6 +180,10 @@ hover:a {
 
 #story2, h1 {
    font-size: 70px;
+}
+
+footer {
+	background-color:rgba(200,200,200,1.00);
 }
 
 #bottomlogo {

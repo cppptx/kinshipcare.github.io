@@ -4,7 +4,6 @@ html,
 body {
     width: 100%;
     height: 100%;
-	background-color: 
 }
 
 body {
@@ -49,6 +48,10 @@ span {
 	padding: 1%;
 }
 
+#home {
+	margin-top: 2%;
+}
+
 .donatelink {
 	font-size: 1.8em;
 	color: white;
@@ -84,6 +87,15 @@ span {
 }
 
 @media (max-width: 991px) {
+	
+	header img {
+	max-width: 95%;
+}
+
+#logo {
+	width: 90%;
+}
+
 	#fb-logo {
 	width: 18%;
 }
