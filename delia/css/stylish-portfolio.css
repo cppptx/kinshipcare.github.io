@@ -53,8 +53,12 @@ span {
 	text-decoration: none;
 }
 
-
-
+.home {
+	font-size: 1.8em;
+	color: white;
+	background-color: #00858e;
+	padding: 1%;
+}
 
 #fb-logo {
 	width: 8%;

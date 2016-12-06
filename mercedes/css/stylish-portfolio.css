@@ -41,6 +41,13 @@ span {
 	font-family: 'Lato', sans-serif;
 }
 
+.home {
+	font-size: 1.8em;
+	color: white;
+	background-color: #00858e;
+	padding: 1%;
+}
+
 .donatelink {
 	font-size: 1.8em;
 	color: white;
