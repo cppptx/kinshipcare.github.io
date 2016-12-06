@@ -53,9 +53,12 @@ hover:a {
 	font-weight: 700;
 }
 
-#donate {
-	color: white;
-	background-color: #D21F22;
+.donatelink {
+	font-size: 1.3em;
+}
+
+.donatelink a {
+	text-decoration: none;
 }
 
 

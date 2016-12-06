@@ -41,9 +41,16 @@ span {
 	font-family: 'Lato', sans-serif;
 }
 
-aside {
-	font-family: 'Merriweather', sans-serif;
-	font-style: italic;
+.donatelink {
+	font-size: 1.8em;
+	color: white;
+	background-color: #00858e;
+	padding: 1%;
+}
+
+.donatelink:hover {
+	color:white;
+	text-decoration: none;
 }
 
 
