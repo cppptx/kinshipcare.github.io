@@ -18,10 +18,12 @@ p {
 
 a {
 	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 }
 
 h1 {
 	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 }
 
 #logo {
@@ -35,17 +37,18 @@ header img {
 	max-width: 60%;
 }
 
-span {
-	font-size: 3em;
-	font-weight: 700;
-	font-family: 'Lato', sans-serif;
+P.drop-cap:first-letter {
+    font-size: 4.5em;
+    float: left;
+    margin-top: .15em;
+	line-height:0.2;
 }
-
 .donatelink {
-	font-size: 1.8em;
+	font-family: 'Lato', sans-serif;
 	color: white;
-	background-color: #00858e;
 	padding: 1%;
+	font-size: 1.3em;
+	background-color: #00858e
 }
 
 .donatelink:hover {
@@ -62,6 +65,10 @@ span {
 
 #home {
 	margin-top: 2%;
+}
+
+footer {
+	background-color:rgba(200,200,200,1.00);
 }
 
 #fb-logo {
