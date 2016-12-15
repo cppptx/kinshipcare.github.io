@@ -47,7 +47,8 @@ hover:a {
 #introtext {
 	padding-top: 1.5%;
 	position: relative;
-	height: 100%;
+	padding-left: 2%;
+	padding-right: 2%
 }
 
 .navbar {
@@ -71,6 +72,8 @@ hover:a {
 
 .donatelink:hover {
 	text-decoration: none;
+	color: #00858e;
+	background-color: white;
 }
 
 #logo {
